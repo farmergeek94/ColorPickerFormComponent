@@ -20,9 +20,14 @@
 	<files>
 		<!-- Include the compiled views dll -->
 		<file src="bin\HBS.ColorPickerFormComponent.Kentico.MVC.Views.dll" target = "lib\net461" />
+		<!-- Include the custom javascript -->
+		<file src="Content\FormComponents\ColorPickerFormComponent\ColorPickerComponent.js" target = "Content\FormComponents\ColorPickerFormComponent\ColorPickerComponent.js" />
+		<!-- Include the custom css -->
+		<file src="Content\FormComponents\ColorPickerFormComponent\ColorPickerCSS.css" target = "Content\FormComponents\ColorPickerFormComponent\ColorPickerCSS.css" />
+		<!-- Include the vendor javascript -->
+		<file src="Content\FormComponents\ColorPickerFormComponent\vendor\pickr.js" target = "Content\FormComponents\ColorPickerFormComponent\vendor\pickr.js" />
+		<!-- Include the vendor classic css -->
+		<file src="Content\FormComponents\ColorPickerFormComponent\vendor\themes\Classic.css" target = "Content\FormComponents\ColorPickerFormComponent\vendor\themes\Classic.css" />
 
-		<!-- Sample of how to include this file in the Content of the Nuget, this would cause the SampleIncludeFile.txt to be copied to the SampleResource folder in the project you import the NuGet package in
-	<file src="SampleResource\SampleIncludedFile.txt" target = "Content\SampleResource" />
-	-->
 	</files>
 </package>

@@ -6,12 +6,12 @@ using CMS;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ColorPicker FormComponent")]
+[assembly: AssemblyTitle("Color Picker Form-Component")]
 [assembly: AssemblyDescription("Form component that allows you to select or paste a color using pickr.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Heartland Business Systems")]
 [assembly: AssemblyProduct("ColorPickerFormComponent")]
-[assembly: AssemblyCopyright("Copyright 2019")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyDiscoverable]
