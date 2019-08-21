@@ -1,0 +1,17 @@
+@using Kentico.Forms.Web.Mvc
+@using System.Web.Mvc.Html
+
+@model HBS.ColorPickerFormComponent.Kentico.MVC.ColorPickerComponent
+
+@* Gets a collection of system HTML attributes necessary for the correct functionality of the component input fields *@
+@{
+    IDictionary<string, object> htmlAttributes = ViewData.GetEditorHtmlAttributes();
+}
+<div class="color-picker-editor">
+    @Html.TextBoxFor(model => model.Value, htmlAttributes)
+    <div data-picker="color"></div>
+</div>
+<script type="text/javascript">
+    // Initalize the colorPicker
+    createColorPickerFormComponent("@Html.NameFor(x=>x.Value)", "@Model.Properties.DefaultValue");
+</script>

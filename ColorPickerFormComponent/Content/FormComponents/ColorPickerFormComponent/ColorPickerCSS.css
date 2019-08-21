@@ -1,0 +1,16 @@
+﻿.pcr-app {
+    z-index: 10300;
+}
+
+.color-picker-editor {
+    position: relative;
+    max-width: 288px;
+    padding-right: 32px;
+}
+
+    .color-picker-editor > .pickr {
+        position: absolute;
+        right: 0px;
+        top: 1px;
+        border: 1px solid rgba(128, 128, 128, 0.7)
+    }

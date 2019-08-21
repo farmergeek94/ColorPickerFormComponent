@@ -285,3 +285,7 @@ export*.zip
 # Removing nuget build file
 
 #Include Packages folder since Rx-Core is no longer retreivable through nuget
+/ColorPickerFormComponent/App_Data/Global/Resources
+/ColorPickerFormComponent/BuildPackage.bat
+/ColorPickerFormComponent.Views/App_Data/Global/Resources
+/ColorPickerFormComponent.Views/CMSResources
