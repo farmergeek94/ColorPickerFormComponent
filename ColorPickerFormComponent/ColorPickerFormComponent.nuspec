@@ -10,7 +10,7 @@
 		<iconUrl>https://raw.githubusercontent.com/Kentico/devnet.kentico.com/master/marketplace/assets/generic-integration.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
-		<releaseNotes/>
+		<releaseNotes>Initial publish</releaseNotes>
 		<copyright>Copyright 2019</copyright>
 		<tags>Kentico MVC ColorPicker pickr FormComponent Form Color Picker HBS Heartland Business Systems</tags>
 		<dependencies>
