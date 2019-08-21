@@ -14,6 +14,6 @@ public string SectionBackground { get; set; }
 
 ## Nuget Package
 https://www.nuget.org/packages/HBS.ColorPickerFormComponent.Kentico.MVC/
-
+```
 Install-Package HBS.ColorPickerFormComponent.Kentico.MVC -Version 12.29.4
-
+```
