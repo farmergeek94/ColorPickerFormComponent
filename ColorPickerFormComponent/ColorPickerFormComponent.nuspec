@@ -12,6 +12,8 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
 		<releaseNotes>
+		12.29.3
+		Added the important clause to the z-index to overwrite the vendor z-index.
 		12.29.2
 		Fixed issue with the javascript function not being correctly formed.
 		12.29.1
