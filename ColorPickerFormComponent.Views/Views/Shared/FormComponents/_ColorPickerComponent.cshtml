@@ -13,5 +13,13 @@
 </div>
 <script type="text/javascript">
     // Initalize the colorPicker
-    createColorPickerFormComponent("@Html.NameFor(x=>x.Value)", "@Model.Properties.DefaultValue");
+    if (document.readyState === "loading") {
+        // Calls the function during the 'DOMContentLoaded' event, after the HTML document has been completely loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            createColorPickerFormComponent("@Html.NameFor(x=>x.Value)", "@Model.Properties.DefaultValue");
+        });
+    } else {
+        // Calls the function directly in cases where the component is rendered dynamically after 'DOMContentLoaded' has occurred
+        createColorPickerFormComponent("@Html.NameFor(x=>x.Value)", "@Model.Properties.DefaultValue");
+    }
 </script>

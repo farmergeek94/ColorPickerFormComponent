@@ -28,14 +28,6 @@
 	<files>
 		<!-- Include the compiled views dll -->
 		<file src="bin\HBS.ColorPickerFormComponent.Kentico.MVC.Views.dll" target = "lib\net461" />
-		<!-- Include the custom javascript -->
-		<file src="Content\FormComponents\ColorPickerFormComponent\ColorPickerComponent.js" target = "Content\FormComponents\ColorPickerFormComponent\ColorPickerComponent.js" />
-		<!-- Include the custom css -->
-		<file src="Content\FormComponents\ColorPickerFormComponent\ColorPickerCSS.css" target = "Content\FormComponents\ColorPickerFormComponent\ColorPickerCSS.css" />
-		<!-- Include the vendor javascript -->
-		<file src="Content\FormComponents\ColorPickerFormComponent\vendor\pickr.js" target = "Content\FormComponents\ColorPickerFormComponent\vendor\pickr.js" />
-		<!-- Include the vendor classic css -->
-		<file src="Content\FormComponents\ColorPickerFormComponent\vendor\themes\Classic.css" target = "Content\FormComponents\ColorPickerFormComponent\vendor\themes\Classic.css" />
 
 	</files>
 </package>
