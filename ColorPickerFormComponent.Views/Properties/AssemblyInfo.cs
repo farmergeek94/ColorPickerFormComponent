@@ -33,5 +33,5 @@ using CMS;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("12.29.3")]
-[assembly: AssemblyFileVersion("1.0.1")]
+[assembly: AssemblyVersion("12.29.4")]
+[assembly: AssemblyFileVersion("1.0.2")]
