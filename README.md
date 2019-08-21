@@ -10,6 +10,7 @@ This FormComponent will allow you to add the color picker from https://github.co
 [EditingComponentProperty(nameof(ColorPickerComponentProperties.Placeholder), "rgba(---,---,---,0-1)")]
 public string SectionBackground { get; set; }
 ```
+![example image](https://github.com/farmergeek94/ColorPickerFormComponent/blob/master/Example.png?raw=true)
 
 ## Nuget Package
 https://www.nuget.org/packages/HBS.ColorPickerFormComponent.Kentico.MVC/
