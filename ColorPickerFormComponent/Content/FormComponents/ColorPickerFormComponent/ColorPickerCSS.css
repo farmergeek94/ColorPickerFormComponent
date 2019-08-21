@@ -1,5 +1,5 @@
 ﻿.pcr-app {
-    z-index: 10300;
+    z-index: 10300 !important;
 }
 
 .color-picker-editor {

@@ -11,7 +11,7 @@ using CMS;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Heartland Business Systems")]
 [assembly: AssemblyProduct("ColorPickerFormComponent")]
-[assembly: AssemblyCopyright("Copyright 2019")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyDiscoverable]
@@ -33,5 +33,5 @@ using CMS;
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("12.29.1")]
-[assembly: AssemblyFileVersion("1.0.1")]
+[assembly: AssemblyVersion("12.29.2")]
+[assembly: AssemblyFileVersion("1.0.2")]
