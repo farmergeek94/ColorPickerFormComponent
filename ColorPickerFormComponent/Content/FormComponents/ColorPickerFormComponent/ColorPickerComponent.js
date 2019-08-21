@@ -1,4 +1,4 @@
-﻿function createColorPicker(formControl, defaultColor) {
+﻿function createColorPickerFormComponent(formControl, defaultColor) {
     var htmlContentInput = document.querySelector("[name='" + formControl + "'");
 
     if (htmlContentInput.value != null) {
