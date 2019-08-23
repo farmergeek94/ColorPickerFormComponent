@@ -17,3 +17,10 @@ https://www.nuget.org/packages/HBS.ColorPickerFormComponent.Kentico.MVC/
 ```
 Install-Package HBS.ColorPickerFormComponent.Kentico.MVC -Version 12.29.4
 ```
+
+# Contributions, fixes and License
+Feel free to Fork and submit pull requests to contribute.
+
+You can submit bugs through the issue list and i will get to them as soon as i can, unless you want to fix it yourself and submit a pull request!
+
+MIT Licensed. This is free to use and modify!  Just include the license file in the root of the project.
