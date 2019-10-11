@@ -289,3 +289,4 @@ export*.zip
 /ColorPickerFormComponent/BuildPackage.bat
 /ColorPickerFormComponent.Views/App_Data/Global/Resources
 /ColorPickerFormComponent.Views/CMSResources
+/ColorPickerFormComponent/BuildPackage..bat

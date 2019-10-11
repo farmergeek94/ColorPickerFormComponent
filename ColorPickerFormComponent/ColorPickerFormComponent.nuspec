@@ -7,11 +7,13 @@
 		<authors>$author$</authors>
 		<owners>$author$</owners>
 		<projectUrl>https://github.com/farmergeek94/ColorPickerFormComponent.git</projectUrl>
-		<iconUrl>https://raw.githubusercontent.com/Kentico/devnet.kentico.com/master/marketplace/assets/generic-integration.png</iconUrl>
+		<icon>.\Content\FormComponents\ColorPickerFormComponent\icon.png</icon>
 		<license type="expression">MIT</license>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
 		<releaseNotes>
+		12.29.5
+		removed the .min suffix that was stopping the css files from being inluded on the nuget package.
 		12.29.3
 		Added the important clause to the z-index to overwrite the vendor z-index.
 		12.29.2
@@ -22,12 +24,14 @@
 		<copyright>Copyright 2019</copyright>
 		<tags>Kentico MVC ColorPicker pickr FormComponent Form Color Picker HBS Heartland Business Systems</tags>
 		<dependencies>
-			<dependency id="Kentico.AspNet.Mvc" version="12.0.29" />
+			<group targetFramework="net461">
+				<dependency id="Kentico.AspNet.Mvc" version="12.0.29" />
+			</group>
 		</dependencies>
 	</metadata>
 	<files>
 		<!-- Include the compiled views dll -->
 		<file src="bin\HBS.ColorPickerFormComponent.Kentico.MVC.Views.dll" target = "lib\net461" />
-
+		<file src=".\Content\FormComponents\ColorPickerFormComponent\icon.png" target="Content\FormComponents\ColorPickerFormComponent\" />
 	</files>
 </package>
